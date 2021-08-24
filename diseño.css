@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(ima/ai.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300wh;
+}
+
+.enlaces{
+   top: 50;
+   left: 50;
+   position: absolute;
+
+}
