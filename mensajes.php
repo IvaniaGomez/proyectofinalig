@@ -23,30 +23,44 @@
   <body>
     <img src="ima/portada.jpg" width="1519px">
       <div class="btn-group w-100" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-warning"><a href="productos.html" style="color: white; text-decoration: none;" >Productos / Servicios</a></button>
+  <button type="button" class="btn btn-warning"><a href="index.html" style="color: white; text-decoration: none;" >Inicio</a></button>
   <button type="button" class="btn btn-info"><a href="tienda.html" style="color: white; text-decoration: none;" >Tiendas</a></button>
   <button type="button" class="btn btn-primary"><a href="contactenos.html" style="color: white; text-decoration: none;" >Contactenos</a></button>
 </div>
-<br><br><br>
-<div class="link-dark"><h3>Oferta al mes</h3></div>
-<br><br>
-<div class="container">
-  <div class="row">
-    <div class="col-6">
-      <img src="ima/ji.jpg" class="ima-thumbnail" style="height:605px;width: 600px;">
-    </div>
-    <div class="col-3">
-      <img src="ima/aretes.jfif" class="rounded float" style="height:300px; width: 300px;margin-top: -5px;">
-      <img src="ima/muñeca.jpg" class="rounded float" style="height:284px; width: 625px;margin-top: 30px;"> 
-    </div>
-    <div class="col-3">
-      <img src="ima/o.jpg" class="rounded float" style="height:300px; width: 300px;margin-top: -5px;"> 
-    </div>
-  </div>
-</div><br>
-</div>
-</div>
-</div>
+              
+                </div>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <br>
+      <center>
+      <div class="card" style="width: 18rem;">
+        <img src="ima/logo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="container">
+            <form action="validar.php" method="POST">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="text" class="form-control" placeholder="&#Xf007;" name="usuario">
+              </div>
+              <br>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="password" class="form-control" placeholder="&#Xf023;" name="contraseña">
+                </div>
+                <div class="mb-3 form-check">
+                </div>
+                <center><div class="d-grip gap-2">
+                  <button class="btn btn-lg btn-dark" type="submit" name="enviar">Iniciar Sesion</button>
+                </form>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
 <br>
 <br><br><br>
 <table class="table">
