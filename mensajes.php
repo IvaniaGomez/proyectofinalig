@@ -23,44 +23,46 @@
   <body>
     <img src="ima/portada.jpg" width="1519px">
       <div class="btn-group w-100" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-warning"><a href="index.html" style="color: white; text-decoration: none;" >Inicio</a></button>
+  <button type="button" class="btn btn-warning"><a href="productos.html" style="color: white; text-decoration: none;" >Productos / Servicios</a></button>
   <button type="button" class="btn btn-info"><a href="tienda.html" style="color: white; text-decoration: none;" >Tiendas</a></button>
   <button type="button" class="btn btn-primary"><a href="contactenos.html" style="color: white; text-decoration: none;" >Contactenos</a></button>
 </div>
-              
+<br><br><br>
+<div class="col-3">
+</div>
+  </div>
+</div><br>
+</div>
+</div>
+</div>
+<br>
+          <div class="col-14" align="center">
+            <div class="card" style="width: 15rem; background-color:#FCF3CF">
+                <div class="card-body">
+                  <h4 class="card-title" style="color: blue; text-decoration: none;" >GENERAL</h4>
+                  <p class="card-text"><b>Tienda de artesanías </b></p>
                 </div>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-      <br>
-      <center>
-      <div class="card" style="width: 18rem;">
-        <img src="ima/logo.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <div class="container">
-            <form action="validar.php" method="POST">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Usuario</label>
-                <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="text" class="form-control" placeholder="&#Xf007;" name="usuario">
               </div>
-              <br>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="password" class="form-control" placeholder="&#Xf023;" name="contraseña">
+          </div><br>
+          <div class="col-14" align="center">
+            <div class="card" style="width: 1000px; background-color:#FCF3CF">
+                <div class="card-body">
+                <h4 class="card-title" style="color: blue; text-decoration: none;">INFORMACIÓN DE CONTACTO ADICIONAL</h4>
+                  <p class="card-text"><b>artesaniasguatemala.ca@gmail.com 
+                  <p class="card-text" style="color:red; text-decoration: none;"><b> Enviar Mensajes
                 </div>
-                <div class="mb-3 form-check">
+              </div>
+              </div><br>
+          <div class="col-14" align="center">
+            <div class="card" style="width: 1000px; background-color:#FCF3CF">
+                <div class="card-body">
+                <h4 class="card-title" style="color: blue; text-decoration: none;">MÁS INFORMACIÓN</h4>
+                  <p class="card-text" style="color:red; text-decoration: none;"><b> Información
+                  <p class="card-text"><b>Artesanías para el hogar, oficina, vestuario y souvenirss
+                  <p class="card-text" style="color:red; text-decoration: none;"><b> Información adicional
+                  <p class="card-text"><b> Llevamos hasta tu oficina las creaciones de artesanos guatemaltecos para llenar tu vida y la de tu gente en el extranjero... "De Colores"
                 </div>
-                <center><div class="d-grip gap-2">
-                  <button class="btn btn-lg btn-dark" type="submit" name="enviar">Iniciar Sesion</button>
-                </form>
-        </div>
-      </div>
-    </center>
-  </body>
-</html>
+              </div>
 <br>
 <br><br><br>
 <table class="table">
